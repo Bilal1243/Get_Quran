@@ -1,0 +1,1 @@
+export const chapterAudio = '/chapter_recitations'

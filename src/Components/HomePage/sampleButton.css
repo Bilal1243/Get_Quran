@@ -1,0 +1,89 @@
+/* SampleButton.css */
+.sample-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+}
+
+.chapter-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #75cc47;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add a transition for smooth hover effect */
+}
+
+.chapter-item:hover {
+  background-color: #3cde72; /* Change background color on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow on hover */
+}
+
+.chapter-name {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.chapter-pages,
+.chapter-place {
+  font-size: 16px;
+  margin: 0;
+  color: #666;
+}
+
+/* sampleButton.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* sampleButton.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff; /* Blue background color for buttons */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.pagination button.active {
+  background-color: #0056b3; /* Darker blue color for active button */
+  font-weight: bold; /* Bold text for active button */
+}
+
+.pagination button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Grayed out background for disabled buttons */
+  cursor: not-allowed;
+}
+
+/* Optional: Center align page numbers on the buttons */
+.pagination button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}

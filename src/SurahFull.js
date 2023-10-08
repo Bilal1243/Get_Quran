@@ -1,0 +1,1 @@
+export const baseURL = 'https://al-quran1.p.rapidapi.com'
